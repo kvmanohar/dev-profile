@@ -12,6 +12,7 @@
 		CED97D021FA27E3D00971776 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED97D001FA27E3D00971776 /* Main.storyboard */; };
 		CED97D041FA27E3D00971776 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED97D031FA27E3D00971776 /* Assets.xcassets */; };
 		CED97D071FA27E3D00971776 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED97D051FA27E3D00971776 /* LaunchScreen.storyboard */; };
+		CED97D101FA2823F00971776 /* CurvedUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED97D0F1FA2823F00971776 /* CurvedUIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CED97D031FA27E3D00971776 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED97D061FA27E3D00971776 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CED97D081FA27E3D00971776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED97D0F1FA2823F00971776 /* CurvedUIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvedUIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CED97CFB1FA27E3D00971776 /* dev-profile */ = {
 			isa = PBXGroup;
 			children = (
+				CED97D0E1FA281F300971776 /* Views */,
 				CED97CFC1FA27E3D00971776 /* AppDelegate.swift */,
 				CED97CFE1FA27E3D00971776 /* ViewController.swift */,
 				CED97D001FA27E3D00971776 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				CED97D081FA27E3D00971776 /* Info.plist */,
 			);
 			path = "dev-profile";
+			sourceTree = "<group>";
+		};
+		CED97D0E1FA281F300971776 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CED97D0F1FA2823F00971776 /* CurvedUIImageView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				CED97CFF1FA27E3D00971776 /* ViewController.swift in Sources */,
 				CED97CFD1FA27E3D00971776 /* AppDelegate.swift in Sources */,
+				CED97D101FA2823F00971776 /* CurvedUIImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
